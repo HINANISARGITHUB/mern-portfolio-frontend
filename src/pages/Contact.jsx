@@ -3,7 +3,7 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import "../App.css";
 
-const BACKEND_URL = "https://mern-portfolio-backend-ten.vercel.app"; // deploy hone par ye URL change karna
+const BACKEND_URL = import.meta.env.VITE_API_URL;// deploy hone par ye URL change karna
 
 const Contact = () => {
   const [formData, setFormData] = useState({
