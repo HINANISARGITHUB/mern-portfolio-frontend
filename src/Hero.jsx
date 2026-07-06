@@ -5,7 +5,7 @@ import { FaArrowRight, FaDownload } from "react-icons/fa";
 
 const Hero = () => {
   const [typingText, setTypingText] = useState("");
-const roles = ["MERN Stack Developer", "Web Application Developer", "React.js Developer"];
+const roles = ["MERN Stack Developer", "React.js Developer"];
   const timeoutRef = useRef(null);
 
   useEffect(() => {
