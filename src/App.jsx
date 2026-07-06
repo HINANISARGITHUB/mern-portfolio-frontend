@@ -2,7 +2,7 @@ import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-import Footer from "./footer";
+import Footer from "./Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
